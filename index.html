@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی سنگ، کاغذ، قیچی</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Scissor.png">
+</head>
+<body>
+    <div class="container">
+        <h1>سنگ کاغذ قیچی</h1>
+        <div class="score">
+            <div>امتیاز شما : <span id="userp">0</span></div>
+            <div>امتیاز کامپیوتر : <span id="comp">0</span></div>
+        </div>
+        <div class="players">
+            <div class="player">
+                <div>شما</div>
+                <div class="selection" id="user-selection"></div>
+            </div>
+            <div class="computer">
+                <div>کامپیوتر</div>
+                <div class="selection" id="computer-selection"></div>
+            </div>
+        </div>
+        <div class="result" id="r">یک گزینه را انتخاب کنید</div>
+        <div class="choices">
+            <button class="choice" id="rock">✊</button>
+            <button class="choice" id="paper">✋</button>
+            <button class="choice" id="scissors">✌️</button>
+        </div>
+        <p id="pid"><b></b></p>
+        <button class="reset-btn" id="reset-game-btn">مجدد</button>
+        <button class="reset-btn" id="go">برو!</button>
+    </div>
+    <br>
+    <p class="p">ساخته شده توسط نیما نشاندار</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
